@@ -26,10 +26,17 @@
 			<label for="gender_f">Female</label><br>
 
 		<label for=cars>Car Brards:</label>
-		<input type="select" id=cars placeholder="--Please choose an option--" required><br>
+		<select id="cars" name="cars" required>
+			<option value="" disabled selected>--Please choose an option--</option>
+			<option value="toyota">Toyota</option>
+            <option value="honda">Honda</option>
+            <option value="bmw">BMW</option>
+            <option value="tesla">Tesla</option>
+            <option value="ford">Ford</option>
+</select>
 
 		<label for=age>Age:</label>
-		<input type="number" id=age placeholder="Age"><br>
+		<input type="number" id=age placeholder="Age" placeholder="Age" required><br>
 
 		<label for=dob>DOB:</label>
 		<input type="date" id=dob required><br>
